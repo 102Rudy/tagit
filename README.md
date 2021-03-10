@@ -1,7 +1,7 @@
 # Tag It
 
 ## How to Build
-Close the project including submodules:
+Clone the project including submodules:
 ```bash
 git clone --recurse-submodules https://github.com/102Rudy/tagit.git
 ```
