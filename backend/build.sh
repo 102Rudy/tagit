@@ -30,4 +30,4 @@ make
 popd
 
 mkdir bin
-mv build/app/tagit-backend-app bin/tagit-backend-app
+mv build/app/tagit-backend bin/tagit-backend

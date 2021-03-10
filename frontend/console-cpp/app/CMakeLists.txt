@@ -1,11 +1,10 @@
 set(SOURCES
-    main.cc
-    GreeterServiceImpl.cc)
+    main.cc)
 
-add_executable(tagit-backend
+add_executable(tagit-console-client
     ${SOURCES})
 
-target_link_libraries(tagit-backend PRIVATE
+target_link_libraries(tagit-console-client PRIVATE
     gRPC::gpr
     gRPC::grpc
     gRPC::grpc++

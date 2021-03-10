@@ -1,5 +1,5 @@
 #!/bin/bash
 
-rm -rf generated/*.cc generated/*.h
+rm -rf generated
 rm -rf build
 rm -rf bin
