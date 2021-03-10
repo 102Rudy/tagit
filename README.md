@@ -1,6 +1,12 @@
 # Tag It
 
 ## How to Build
+Close the project including submodules:
+```bash
+git clone --recurse-submodules -j8 https://github.com/102Rudy/tagit.git
+```
+
+
 ### Backend
 #### Linux & macOS
 Install `vcpkg` dependencies:
