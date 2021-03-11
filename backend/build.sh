@@ -25,9 +25,10 @@ DST_DIR=generated
 # build project
 mkdir build
 pushd build
-cmake -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake ..
+cmake -DCMAKE_TOOLCHAIN_FILE=../vcpkg/scripts/buildsystems/vcpkg.cmake .. -DCMAKE_BUILD_TYPE=Debug
 make
 popd
 
+rm -rf bin
 mkdir bin
 mv build/app/tagit-backend bin/tagit-backend

@@ -27,9 +27,9 @@ To be done
 
 ### Frontend
 
-Change directory to `fronend` and run `build.sh`. It generates python files from .proto
+Change directory to `frontend/console-python` and run `build.sh`. It generates python files from .proto
 ```bash
-cd frontend
+cd frontend/console-python
 ./build.sh
 ```
 
